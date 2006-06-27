@@ -30,7 +30,7 @@ In PEAR status of this package is: %{_status}.
 
 %description -l pl
 Ten pakiet dostarcza sterownik DataSource do tablic dla
-Structures_DataGrid. Jest to klasa bazowa dla innych sterownika
+Structures_DataGrid. Jest to klasa bazowa dla innych sterowników
 DataSource, takich jak CSV czy XML.
 
 Ta klasa ma w PEAR status: %{_status}.
