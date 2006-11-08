@@ -3,7 +3,6 @@
 %define		_subclass	DataGrid_DataSource_Array
 %define		_status		beta
 %define		_pearname	Structures_DataGrid_DataSource_Array
-
 Summary:	%{_pearname} - DataSource driver using arrays
 Summary(pl):	%{_pearname} - sterownik DataSource dla tablic
 Name:		php-pear-%{_pearname}
@@ -17,7 +16,7 @@ URL:		http://pear.php.net/package/Structures_DataGrid_DataSource_Array/
 BuildRequires:	php-pear-PEAR
 BuildRequires:	rpm-php-pearprov >= 4.4.2-11
 Requires:	php-pear
-Requires:	php-pear-PEAR >= 1:1.4.-0.9
+Requires:	php-pear-PEAR-core >= 1:1.4.9
 Requires:	php-pear-Structures_DataGrid >= 0.7.0
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
