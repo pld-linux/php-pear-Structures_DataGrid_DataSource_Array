@@ -4,7 +4,7 @@
 %define		_status		beta
 %define		_pearname	Structures_DataGrid_DataSource_Array
 Summary:	%{_pearname} - DataSource driver using arrays
-Summary(pl):	%{_pearname} - sterownik DataSource dla tablic
+Summary(pl.UTF-8):   %{_pearname} - sterownik DataSource dla tablic
 Name:		php-pear-%{_pearname}
 Version:	0.1.1
 Release:	1
@@ -27,9 +27,9 @@ is a base package for some other DataSource drivers like CSV or XML.
 
 In PEAR status of this package is: %{_status}.
 
-%description -l pl
+%description -l pl.UTF-8
 Ten pakiet dostarcza sterownik DataSource do tablic dla
-Structures_DataGrid. Jest to klasa bazowa dla innych sterowników
+Structures_DataGrid. Jest to klasa bazowa dla innych sterownikÃ³w
 DataSource, takich jak CSV czy XML.
 
 Ta klasa ma w PEAR status: %{_status}.
