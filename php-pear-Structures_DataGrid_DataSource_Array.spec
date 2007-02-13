@@ -4,7 +4,7 @@
 %define		_status		beta
 %define		_pearname	Structures_DataGrid_DataSource_Array
 Summary:	%{_pearname} - DataSource driver using arrays
-Summary(pl.UTF-8):   %{_pearname} - sterownik DataSource dla tablic
+Summary(pl.UTF-8):	%{_pearname} - sterownik DataSource dla tablic
 Name:		php-pear-%{_pearname}
 Version:	0.1.1
 Release:	1
