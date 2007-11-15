@@ -6,12 +6,12 @@
 Summary:	%{_pearname} - DataSource driver using arrays
 Summary(pl.UTF-8):	%{_pearname} - sterownik DataSource dla tablic
 Name:		php-pear-%{_pearname}
-Version:	0.1.1
+Version:	0.1.2
 Release:	1
 License:	PHP License
 Group:		Development/Languages/PHP
 Source0:	http://pear.php.net/get/%{_pearname}-%{version}.tgz
-# Source0-md5:	02abb1ca3134fe790f77050f312fbdf6
+# Source0-md5:	ddf4856f27390eca734bd10fb92188d0
 URL:		http://pear.php.net/package/Structures_DataGrid_DataSource_Array/
 BuildRequires:	php-pear-PEAR
 BuildRequires:	rpm-php-pearprov >= 4.4.2-11
